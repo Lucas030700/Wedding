@@ -1,27 +1,23 @@
-# Wedding Event Planner
+# Wedding Event Planner v1.1
 
-A lightweight, mobile-friendly wedding event builder for GitHub Pages / Cloudflare Pages.
+Compact, mobile-friendly event planning software for GitHub Pages or Cloudflare Pages.
 
-## Included in v1.0
-- No login or wedding date requirement.
-- Selectable wedding feature catalog, grouped by event area.
+## Features
+- No login and no wedding date requirement.
+- Compact feature cards, initially collapsed.
+- Each feature opens its own details panel with feature-specific fields.
+- Budget slider plus exact amount input for every feature.
+- Add/remove controls for repeatable details such as decoration elements, games, flower arrangements and transport entries.
+- Guest count, actual/quoted amount, deposits and supplier/payment status.
 - Custom event features.
-- Guest count.
-- Per-feature budget estimates.
-- Budget details: cost type, quantity, unit cost, estimate, actual/quotation, deposit and status.
-- Local browser autosave.
-- JSON backup import/export and CSV budget export.
-- Responsive layout for desktop and mobile.
+- Browser autosave, JSON backup import/export and CSV budget export.
 
-## Deploy with GitHub
-1. Create a repository, for example `wedding-event-planner`.
-2. Upload `index.html` and this `README.md` to the repository root.
-3. Commit to the `main` branch.
-4. For GitHub Pages: open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-5. Alternatively, connect the repository to Cloudflare Pages and use the root directory with no build command.
+## Deploy
+1. Create a GitHub repository (for example `wedding-event-planner`).
+2. Upload `index.html` and `README.md` to the repository root.
+3. Commit to `main`.
+4. GitHub Pages: Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
+5. Or connect the repository to Cloudflare Pages. No build command is required.
 
-## Data and privacy
-This version does not require an account and does not send event data to a server. Data is saved in the browser's local storage on the device/browser being used. Use **Settings → Export backup (JSON)** to move data to another device or browser. GitHub stores the app source code, not the planner's private data.
-
-## Updating
-Edit `index.html`, commit the changes, and let the hosting provider redeploy.
+## Data
+The app does not require login and does not send event data to a server. Data is stored in browser local storage. Export a JSON backup to transfer it to another device/browser. GitHub stores the application source code, not the private event data.
